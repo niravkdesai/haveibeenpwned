@@ -10,6 +10,9 @@ Usage:-
 root@bt:~# chmod +x haveibeenpwned.sh 
 
 root@bt:~# ./haveibeenpwned.sh 
+
 Please enter email address to check against http://haveibeenpwned.com
+
 troyhunt%40hotmail.com
+
 You have been pwned in ["Adobe"] breach 
