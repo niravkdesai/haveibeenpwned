@@ -21,3 +21,26 @@ N
 
 
 
+Another bash script works with email list.It get email address from supplied file & check against site one by one.
+
+root@bt:~# cat email.list 
+
+help@microsoft.com
+
+foo@bar.com
+
+troyhunt@hotmail.com
+
+root@bt:~# sh email_hibp.sh 
+
+Usage: ./email_hibp.sh emaillist
+
+root@bt:~# sh email_hibp.sh email.list 
+
+help@microsoft.com has been pwned in ["Adobe"] breach 
+
+foo@bar.com has been pwned in ["Adobe","Gawker","Stratfor"] breach 
+
+troyhunt@hotmail.com has been pwned in ["Adobe"] breach 
+
+Output saved into out.csv(Tab seprated)file
